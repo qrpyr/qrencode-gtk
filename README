@@ -1,11 +1,13 @@
 qrencode-gtk -- a Gnome/Gtk frontend for libqrencode
 
-intended for transmitting text like http links to mobile phones
+provides a simple GUI for generating QR codes from text.
+useful for transmitting text like http links to mobile phones
 in a convenient and fast way.
 
 the program is written in python and forwards input text to
 libqrencode (https://github.com/fukuchi/libqrencode) using 
 ctypes. returned binary data is filled into a Gdk.Pixbuf.
+python bitarray library is required.
 
 qrencode-gtk comes WITHOUT ANY WARRANTY.
-licensing information in LICENSE file.
+licensing information in COPYING file.
